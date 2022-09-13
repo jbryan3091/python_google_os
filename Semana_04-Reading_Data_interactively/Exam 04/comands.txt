@@ -1,0 +1,13 @@
+    1  cd data/
+    2  cat fishy.log 
+    3  clear
+    4  cd ~/scripts/
+    5  clear
+    6  nano find_error.py
+    7  nano find_error_.py
+    8  mv find_error_.py find_error.py
+    9  nano find_error.py
+   10  sudo chmod +x find_error.py 
+   11  ./find_error.py ~/data/fishy.log
+   12  cat ~/data/errors_found.log
+   13  history > comands.txt
